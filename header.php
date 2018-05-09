@@ -29,7 +29,7 @@
 
 			<div class="header-main container clearfix">
 
-				<button id="sidebar-navigation-toggle" class="sidebar-navigation-toggle"></button>
+				<button id="sidebar-navigation-toggle" class="sidebar-navigation-toggle" type="button" aria-label="<?php esc_attr_e( 'Toggle sidebar navigation menu', 'pocono' ); ?>"></button>
 
 				<div id="logo" class="site-branding clearfix">
 
