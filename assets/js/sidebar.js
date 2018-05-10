@@ -63,6 +63,7 @@
 			// Add ARIA attributes for the menu toggle and menu container.
 			button.attr({
 				"aria-controls": menu.attr( "id" ),
+				"aria-haspopup": true,
 				"aria-expanded": false,
 				"aria-pressed": false
 			});
